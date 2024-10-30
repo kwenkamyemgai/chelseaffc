@@ -16,12 +16,8 @@ nav ul {
   display: none;
 }
 
-.material-symbols-outlined {
-  font-variation-settings:
-        "FILL" 0,
-        "wght" 400,
-        "GRAD" 0,
-        "opsz" 24;
+.material_symbols_outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
   justify-content: right;
 }
 
@@ -36,27 +32,28 @@ nav {
 
 ul {
   display: none;
+  display: block;
 }
 
-.Container {
+.container {
   display: block;
   padding-top: 25px;
 }
-.Container img {
+.container img {
   height: 250px;
   width: 50%;
   padding-top: 20px;
 }
 
-.Container h5 {
+.container h5 {
   color: skyblue;
 }
 
-.Container h1 {
+.container h1 {
   font-size: larger;
 }
 
-.Container p {
+.container p {
   font-size: smaller;
 }
 
@@ -81,26 +78,24 @@ ul {
   justify-content: space-between;
   margin: auto;
 }
-.ContainerCup{
+.containercup {
   background-image: url("../images/chelsea-champions-league-scaled.jpg");
-  width:320px ;
+  width: 320px;
   height: 320px;
   color: white;
   background-size: cover;
-  text-align: center;  
+  text-align: center;
 }
 
-
-
-.part1-1 {
+.part1_1 {
   background-image: url("../images/chelsea-champions-league-scaled.jpg");
 }
 
-.part1-1 h4 {
+.part1_1 h4 {
   color: #fff;
 }
 
-.part1-1 p {
+.part1_1 p {
   color: #fff;
 }
 
@@ -114,12 +109,12 @@ ul {
   width: 100%;
 }
 
-.block h4{
+.block h4 {
   text-align: center;
   font-weight: bolder;
 }
 
-.block p{
+.block p {
   text-align: center;
   font-weight: lighter;
   font-size: large;
@@ -145,14 +140,14 @@ ul {
   font-size: large;
 }
 
-.part2-1 {
+.part2_1 {
   display: block;
   gap: 1em;
+}
 
-    button {
-        width: 100%;
-        padding-top: 0.7em;
-    }
+.part2_1 button {
+  width: 100%;
+  padding-top: 0.7em;
 }
 
 .block1 {
@@ -168,7 +163,7 @@ ul {
   box-shadow: 0 8px 4px #868383;
   text-align: center;
   border-radius: 0.7em;
-  padding: 1em 0.1em
+  padding: 1em 0.1em;
 }
 
 .block3 {
@@ -176,7 +171,7 @@ ul {
   box-shadow: 0 8px 4px #868383;
   text-align: center;
   border-radius: 0.7em;
-  padding: 1em 0.1em
+  padding: 1em 0.1em;
 }
 
 .block4 {
@@ -184,7 +179,7 @@ ul {
   box-shadow: 0 8px 4px #868383;
   text-align: center;
   border-radius: 0.7em;
-  padding: 1em 0.1em
+  padding: 1em 0.1em;
 }
 
 .block5 {
@@ -192,7 +187,7 @@ ul {
   box-shadow: 0 8px 4px #868383;
   text-align: center;
   border-radius: 0.7em;
-  padding: 1em 0.1em
+  padding: 1em 0.1em;
 }
 
 .block6 {
@@ -200,7 +195,7 @@ ul {
   box-shadow: 0 8px 4px #868383;
   text-align: center;
   border-radius: 0.7em;
-  padding: 1em 0.1em
+  padding: 1em 0.1em;
 }
 
 .cartss {
@@ -231,7 +226,7 @@ ul {
   box-shadow: 0 8px 4px #868383;
   text-align: center;
   border-radius: 0.7em;
-  padding: 1em 0.1em
+  padding: 1em 0.1em;
 }
 
 .icons {
@@ -239,7 +234,7 @@ ul {
   box-shadow: 0 8px 4px #868383;
   text-align: center;
   border-radius: 0.7em;
-  padding: 1em 0.1em
+  padding: 1em 0.1em;
 }
 
 .test {
@@ -254,7 +249,7 @@ ul {
   display: block;
 }
 
-.footerContainer{
+.footercontainer {
   background-color: rgb(26, 23, 23);
   display: flex;
   flex-direction: column;
@@ -262,13 +257,13 @@ ul {
 }
 
 .section {
-  text-align: left
+  text-align: left;
 }
 
-ul {
-  display: block;
+.services h2 {
+  color: #fff;
 }
 
-.services h2, li {
+.services li {
   color: #fff;
 }
