@@ -359,7 +359,6 @@ nav {
     padding: 0;
   }
 
-
  header {
   background-size: cover;
  }
@@ -632,4 +631,5 @@ nav {
  .para {
   display: flex;
  }
- 
+
+}
