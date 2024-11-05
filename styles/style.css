@@ -361,6 +361,7 @@ nav {
 
   header {
     background-size: cover;
+    height: 450px;
   }
 
   nav .material-symbols-outlined {
@@ -384,6 +385,7 @@ nav {
   }
 
   header button {
+    margin-top: 40px;
     margin-bottom: 50px;
   }
 
@@ -394,11 +396,12 @@ nav {
   header h1 {
     margin-top: 25px;
     text-align: left;
-    font-size: x-large;
+    font-size: xx-large;
   }
 
   header p {
-    font-size: small;
+    font-size: large;
+    margin-top: 10px;
   }
 
   .container h5 {
@@ -414,6 +417,24 @@ nav {
     display: grid;
     grid-template-columns: 50% 50%;
     margin-bottom: 100px;
+    padding: 10px;
+  }
+
+  .picture h4 {
+    color: #3833d0;
+  }
+
+  .picture h1 {
+    font-size: 30px;
+  }
+
+  .picture p {
+    font-size: 20px;
+  }
+
+  .picture button {
+    color: #3833d0;
+    border: solid black;
   }
 
   .sponsors {
@@ -483,10 +504,19 @@ nav {
     justify-content: space-between;
   }
 
+  .www1 h1 {
+    margin-top: 20%;
+  }
+
+  .www2 p {
+    margin-top: 10%;
+  }
+
   .www2 button {
     margin-left: auto;
     color: #3833d0;
     margin-bottom: 40px;
+    border: solid #2c2a2a;
   }
 
   .part2-1 {
@@ -607,12 +637,28 @@ nav {
     grid-template-columns: 2fr 2fr;
   }
 
+  .services {
+    margin-bottom: 2%;
+  }
+
+  .services h2 {
+    margin-bottom: 5%;
+  }
+
+  .studio h2 {
+    margin-bottom: 5%;
+  }
+
   .footer button {
     margin-bottom: 5%;
   }
 
   .animat {
     margin-bottom: 1%;
+  }
+
+  .animat h1 {
+    margin-bottom: 3%;
   }
 
   .court {
